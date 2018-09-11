@@ -1,0 +1,30 @@
+body{
+  background-color: #c50b5c;
+  font-family: 'Arial', sans-serif;
+  color:white;
+}
+
+ section {
+  display: grid;
+  grid-template-columns:repeat(10, 1fr);
+  grid-template-rows:repeat(10, 1fr);
+}
+
+
+.photo{
+  background-color: #00ff83;
+  grid-column: 3/ span 7;
+  grid-row: 2 / span 8;
+ }
+
+.side{
+  background-color: blue;
+  grid-column: 2/ span 2;
+  grid-row: 3 / span 4;
+}
+
+.card{
+  background-color: #008080;
+  grid-column: 8/ span 3;
+  grid-row: 3 / span 6;
+}
